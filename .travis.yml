@@ -7,6 +7,10 @@ notifications:
   email:
     false
 
+arch:
+- amd64
+- arm64
+
 script:
 - sbt +test:run
 
